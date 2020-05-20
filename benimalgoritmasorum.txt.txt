@@ -1,0 +1,16 @@
+soru)
+	mekan bilgileri = oto kiralama adı , bulunduğu il 
+	müşteri bilgileri = müşteri ıd ,adı,soyadı
+	araba bilgileri = model,marka
+	ödeme bilgileri = ödeme tipi, kiralanacak gün,ve toplam tutar
+ekranda yukarıdaki bilgileri gördüğümüz ve aşağıda belirlenen özelliklerle oluşturulan bir program yazınız(değişkenlerinizi yukarıdaki çıktılara göre ayarlayabilirsiniz)
+a)bir oto kiralama uygulaması tasarlayacaksınız
+b)en az 3 özelliği olan temel bir sınıf oluşturunuz
+	sınıfta  oto kiralamanın ismini private olan bir bir değişkenle belirleyiniz
+c)oluşturduğumuz değişkenlerin isimlerini yapıcı metodlarla ve this anahtar sözcüğü kullanılarak ilk değer ataması yapılacaktır
+d)temel sınıfın içinde abstarct anahtar sözcüğüyle tanımlanmış bilgi isimli bir sınıf oluşturunuz
+	ve bu sınıfı kalıtım özelliğindeki miras veren sınıf olacak şekilde ayarlayınız
+	polimorfizm ile private olarak oluşturduğumuz oto kiralama ismini de burada owerriding yapınız
+e)ve miras alan müşteri sınıfını da oluşturunuz ve aynı şekilde bunada ilk değer atamalarını yapıcı birr metotla belirleyiniz
+	ve de super anahtar sözcüğüylede miras aldığınız sınıfın özelliklerinide yapıcı metoda ekleyiniz
+f)müşteri sınıfında ücteri hesaplayan bir metod da tasarlayınız
